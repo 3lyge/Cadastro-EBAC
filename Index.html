@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form>
+        <div id="card" class="card">
+            <h1>Cadastro de usuário</h1>
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" placeholder="  João Maria" required>
+            <label for="email">Email</label>
+            <input id="email" type="text" placeholder="  User@email.com" required>
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="number" placeholder="  (DDD)9 12345678" required>
+        </div>
+        <div id="card1" class="card1">
+            <h1>Cadastro de endereço</h1>
+            <label for="cep">Email</label>
+           <input id="cep" type="number" placeholder="  12345678" required>
+            <label for="logradouro">Logradouro</label>
+            <input id="logradouro" type="text" placeholder="  Av. Presidente epitácio pessoa" required>
+            <label for="bairro">Bairro</label>
+            <input id="bairro" type="text" placeholder="  Bairro dos estados" required>
+            <label for="cidade">Cidade</label>
+            <input id="cidade" type="text" placeholder="  João Pessoa" required>
+            <label for="uf">Estado - UF</label>
+            <input id="uf" type="text" placeholder="  PB" required>
+            <label id="numero">Número</label>
+            <input id="numero" type="number" placeholder="  99">
+            <label for="complemento">Complemento</label>
+            <input id="complemento" type="text" placeholder="  Opcional">
+            <button type="submit" id="cadastro">Cadastrar</button>
+        </div>
+    </form>
+    <script src="Script.js"></script>
+</body>
+</html>
